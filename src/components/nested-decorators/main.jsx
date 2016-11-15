@@ -1,0 +1,1 @@
+export default class Main{  constructor() {    this.canFly = false;  }  fly() {    return this.canFly;  }  walk() {    return true;  }}
