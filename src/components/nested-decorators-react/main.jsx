@@ -1,0 +1,1 @@
+import React from 'react';export default class Main extends React.Component {  static propTypes = {};  constructor() {    super();    this.canFly = false;  }  fly() {    return this.canFly;  }  walk() {    return true;  }  render() {    return (      <div id="main" />    )  }}
